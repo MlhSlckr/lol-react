@@ -14,8 +14,6 @@ export default function App() {
       });
   }, []);
 
-  console.log(champs);
-
   function handleChange(e) {
     const search = e.target.value.toLowerCase();
     const champNames = document.querySelectorAll(".name");
