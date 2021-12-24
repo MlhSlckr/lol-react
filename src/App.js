@@ -20,7 +20,6 @@ export default function App() {
     const search = e.target.value.toLowerCase();
     const champNames = document.querySelectorAll(".name");
     champNames.forEach((champName) => {
-      // console.log(champName.textContent.toLowerCase());
       champName.parentElement.style.display = "block";
       if (!champName.textContent.toLowerCase().includes(search)) {
         champName.parentElement.style.display = "none";
